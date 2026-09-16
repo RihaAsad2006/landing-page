@@ -55,6 +55,7 @@ ul{
 .hero-image{
     width: 500px;
     height: 230px;
+    object-fit: cover;
 }
 
 .text{
@@ -80,9 +81,9 @@ ul{
 
 .random-info{
     text-align: center;
-    color:rgb(31, 41, 55);
+    color:#1F2937;
     font-weight: 900;
-    font-size: 25px;
+    font-size: 36px;
    margin-bottom: 40px;
 }
 .card-section{
@@ -102,5 +103,32 @@ gap:45px;
     object-fit: cover;
 }
 .card-text{
-    Color: rgb(119, 117, 117);
+    Color: rgb(83, 83, 83);
+}
+
+/*third section */
+.third-section{
+    background-color:  rgb(226, 226, 226);
+    display:flex;
+     justify-content: center;
+     padding-top: 60px;
+      padding-bottom: 60px;
+}
+.quote-section{
+    width: 700px;
+   
+   
+}
+.emma-quote{
+    font-size: 36px;  
+    margin-bottom: 0px; 
+    Color: #1F2937;
+    font-weight: 300;
+    Font-style: italic;
+}
+.emma-name{
+    text-align: right;
+    margin-top: 0px;
+    font-weight: bold;
+    color:#1F2937;
 }
