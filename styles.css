@@ -3,15 +3,18 @@ body{
     display:flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin:0px;
 }
 /*first section */
-.first{
+.first-section{
    background-color:  rgb(31, 41, 55);
 padding-left: 160px;
 padding-right: 160px;
 padding-bottom: 100px;
 padding-top:30px;
 color:white;
+margin-bottom: 20px;
 }
 
 ul{
@@ -27,27 +30,26 @@ ul{
     justify-content: space-between;
 }
 .logo{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 
 }
 .links{
-    font-size: 15px;
+    font-size: 18px;
     cursor: pointer;
     Color: rgb(199, 199, 199);
 }
 .left-content{
-    width:350px;
-    margin-top: 10px;
+    width:400px;
 }
-.hero{
+.hero-section{
     display:flex;
     margin-top:80px;
     justify-content: space-between;
 }
 .main-heading{
-    font-size:40px;
-    font-weight: bold;
+    font-size:48px;
+    font-weight: 900;
     margin:0px;
 }
 .hero-image{
@@ -58,6 +60,7 @@ ul{
 .text{
     margin-top:0px;
     Color: rgb(199, 199, 199);
+    font-size: 18px;
 }
 .sign-up-1{
     background-color: rgb(57, 159, 255);
@@ -67,4 +70,37 @@ ul{
     border-radius: 3px;
     font-weight: bold;
     cursor: pointer;
+}
+
+/*Second Section */
+
+.second-section{
+    padding-bottom: 80px;
+}
+
+.random-info{
+    text-align: center;
+    color:rgb(31, 41, 55);
+    font-weight: 900;
+    font-size: 25px;
+   margin-bottom: 40px;
+}
+.card-section{
+    display:flex;
+justify-content: center;
+gap:45px;
+}
+
+.card{
+    flex-wrap: wrap;
+    width: 150px;
+    text-align: center;
+}
+.card-image{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+}
+.card-text{
+    Color: rgb(119, 117, 117);
 }
