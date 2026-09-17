@@ -110,9 +110,9 @@ gap:45px;
 .third-section{
     background-color:  rgb(226, 226, 226);
     display:flex;
-     justify-content: center;
-     padding-top: 60px;
-      padding-bottom: 60px;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .quote-section{
     width: 700px;
@@ -174,4 +174,14 @@ color:white;
 font-weight: bold;
 font-size: 15px;
 cursor:pointer;
+}
+
+/*Fifth section */
+.fifth-section{
+    background-color: #1F2937;
+    color:rgb(224, 224, 224);
+    text-align: center;
+    font-size: 14px;
+    padding-top:17px;
+    padding-bottom: 17px;
 }
